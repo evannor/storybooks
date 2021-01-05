@@ -7,3 +7,13 @@ p {
   margin-top: 50px;
   text-align: center;
 }
+
+/* added to match look on YT tutorial */
+.btn-floating.halfway-fab {
+  bottom: 0;
+  top: -20px;
+}
+
+.fa-small {
+  font-size: 16px !important;
+}
