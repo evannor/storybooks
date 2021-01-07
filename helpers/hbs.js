@@ -27,5 +27,14 @@ module.exports = {
     } else {
       return '';
     }
+  },
+  // Found code on Stackoverflow
+  select: function (selected, options) {
+    return options
+    .fn(this)
+    .replace(
+      new RegExp(' value="' + selected + '"'),
+      '$& selected="selected"$&'
+    );
   }
 }
